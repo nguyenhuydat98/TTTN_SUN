@@ -1,5 +1,5 @@
 <?php
-	class BaseController {
+	class Controller {
 		protected $folder;
 
 		public function render($file, $data = []) {

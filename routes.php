@@ -1,5 +1,5 @@
 <?php
-	$controller = 'home';
+	$controller = 'post';
 	$action = 'index';
 
 	if(isset($_GET['controller'])) {

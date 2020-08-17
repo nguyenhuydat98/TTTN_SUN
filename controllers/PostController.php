@@ -1,8 +1,8 @@
 <?php
-	require_once 'controllers/BaseController.php';
+	require_once 'controllers/Controller.php';
 	require_once 'models/Post.php';
 
-	class PostController extends BaseController
+	class PostController extends Controller
 	{
 		public function __construct() {
 			$this->folder = 'post';
